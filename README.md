@@ -1,3 +1,50 @@
+# Ein UI — Liquid Glass 组件库（整理版）
+
+> 📦 本仓库整理自开源项目 [ehsanghaffar/einui](https://github.com/ehsanghaffar/einui)，原项目采用 ISC License，版权归原作者 Ehsan Ghaffar 所有。详见 [LICENCE](./LICENCE)。
+
+Ein UI 是一套 React / Next.js 液态玻璃（Liquid Glass）风格 UI 组件库，兼容 shadcn/ui 的 registry 分发模式：没有传统 npm 包，组件通过 `shadcn add` 按需复制源码到你的项目。
+
+## 技术栈
+
+- React 19 + Next.js 16 + TypeScript
+- Tailwind CSS v4
+- shadcn/ui + Radix UI primitives
+- framer-motion 动画、lucide-react 图标
+
+## 组件分类
+
+| 分类 | 内容 |
+|------|------|
+| 基础表单 | glass-button / input / select / textarea / checkbox / radio / switch / slider |
+| 反馈展示 | glass-card / dialog / alert-dialog / badge / avatar / progress / skeleton / tooltip / popover / sheet |
+| 导航布局 | glass-tabs / breadcrumb / separator / scroll-area / table |
+| 创意组件 | command-palette / notification / dock / gauge / morph-card / ripple / spotlight / orb / waveform / timeline |
+| 实用小组件 | calendar / clock / weather / stats / stock / map / area-chart |
+| 页面模板 | 登录页 / 注册页 / 忘记密码页 / 定价页 / 后台管理面板 |
+
+## 快速使用
+
+```bash
+# 在你的 shadcn 项目中按需安装单个组件
+npx shadcn@latest add @einui/glass-card
+npx shadcn@latest add @einui/glass-button
+```
+
+也支持从官方 registry 直接安装：`https://ui.eindev.ir/r/{组件名}.json`
+
+## 本地预览
+
+```bash
+pnpm install
+pnpm dev
+```
+
+---
+
+以下为原项目文档（英文）：
+
+---
+
 # Ein UI — Liquid Glass Components (Shadcn Registry)
 
 [![Demo](https://img.shields.io/badge/demo-Demo%20Site-brightgreen)](https://ui.eindev.ir)
